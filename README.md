@@ -91,9 +91,4 @@ We are a team of four passionate tech enthusiasts who collaborated to design, bu
 > 🛠️ We worked closely together through every phase: design, hardware setup, backend APIs, cloud setup, and frontend UI. Team collaboration, planning, and testing were key to achieving a reliable real-time system.
 
 
----
-# Data Flow Diagram
-![Screenshot 2025-06-30 190543](https://github.com/user-attachments/assets/b86ede0b-0b1c-42dc-8b28-9d16b9477be4)
 
-
----
