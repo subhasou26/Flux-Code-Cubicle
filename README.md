@@ -89,3 +89,11 @@ We are a team of four passionate tech enthusiasts who collaborated to design, bu
 | **Sunetra Ghosh**  | Cloud & Data Pipeline Expert | Set up Azure IoT routing, Kafka streaming, and handled message brokering to ensure real-time data flow |
 
 > 🛠️ We worked closely together through every phase: design, hardware setup, backend APIs, cloud setup, and frontend UI. Team collaboration, planning, and testing were key to achieving a reliable real-time system.
+
+
+
+---
+# Data Flow Diagram
+![image](https://github.com/user-attachments/assets/b4c962e4-7efe-4690-aab3-97ff5aba388a)
+
+---
