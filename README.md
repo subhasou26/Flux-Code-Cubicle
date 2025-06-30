@@ -3,6 +3,20 @@
 
 ## 🔷 Track: Omnidimension  
 ### 📌 Problem Statement: Public Transit & Fleet Scheduling – Code Cubicle 4.0
+---
+
+## 📌 Table of Contents
+- [Problem Overview](#problem-overview)
+- [Solution Architecture](#solution-architecture)
+- [Tech Stack](#tech-stack)
+- [Setup Instructions](#setup-instructions)
+- [Demo Video](#demo-video)
+- [Future Scope](#future-scope)
+- [Team Members](#team-members)
+- [Contributing](#contributing)
+- [License](#license)
+
+---
 
 A smart, scalable, and cloud-connected IoT solution to enable real-time tracking of public buses using GPS, MQTT, Azure IoT Hub, Kafka, and web technologies.
 
@@ -49,7 +63,32 @@ We built a full-stack IoT solution that:
 
 ---
 
-## 🧭 System Architecture
+## 🚀 Solution Architecture
 
 ```plaintext
-GPS (Neo-6M) → Arduino → SIM800L → Azure IoT Hub (MQTT) → Kafka → Node.js Server → Socket.IO → Next.js Frontend (Map UI)
++-------------------+         +--------------------+         +-------------------+
+|  GPS + Arduino    | --MQTT-->  Azure IoT Hub     | -->Kafka--> Node.js Server |
+| + SIM800L GSM     |         | (MQTT endpoint)    |         |   (Kafka Consumer)|
++-------------------+         +--------------------+         +-------------------+
+                                                                   |
+                                                                   v
+                                                          +------------------+
+                                                          |  Next.js Frontend|
+                                                          | (Live Map + UI)  |
+                                                          +------------------+
+
+
+
+
+## 👨‍💻 Team Members
+
+We are a team of four passionate tech enthusiasts who collaborated to design, build, and deploy a fully functional IoT-based bus tracking system in real time.
+
+| Name               | Role                         | Contribution Highlights                                  |
+|--------------------|------------------------------|-----------------------------------------------------------|
+| **Subhadip Paul**  | Backend & Hardware Engineer  | Led Arduino programming, SIM800L configuration, Azure IoT Hub integration, and Node.js Kafka backend |
+| **Sumit Tiwari**   | IoT & Device Communication   | Managed SIM800L + GPS wiring, MQTT setup, device-to-cloud messaging, and circuit stability |
+| **Utsho Banerjee** | Frontend Developer           | Developed the real-time map UI using Next.js and Leaflet, integrated Socket.IO for live updates |
+| **Sunetra Ghosh**  | Cloud & Data Pipeline Expert | Set up Azure IoT routing, Kafka streaming, and handled message brokering to ensure real-time data flow |
+
+> 🛠️ We worked closely together through every phase: design, hardware setup, backend APIs, cloud setup, and frontend UI. Team collaboration, planning, and testing were key to achieving a reliable real-time system.
