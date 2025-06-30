@@ -9,12 +9,9 @@
 - [Problem Overview](#problem-overview)
 - [Solution Architecture](#solution-architecture)
 - [Tech Stack](#tech-stack)
-- [Setup Instructions](#setup-instructions)
-- [Demo Video](#demo-video)
 - [Future Scope](#future-scope)
 - [Team Members](#team-members)
 - [Contributing](#contributing)
-- [License](#license)
 
 ---
 
